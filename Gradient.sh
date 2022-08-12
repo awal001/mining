@@ -1,7 +1,3 @@
-#! /bin/bash
-# Install XRDP
-# Before get rtm coin for free
-# Google Colab
 sudo apt update
 clear
 sudo apt install screen
