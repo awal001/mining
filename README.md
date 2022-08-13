@@ -12,4 +12,4 @@ wget https://github.com/andru-kun/wildrig-multi/releases/download/0.32.2/wildrig
 ```
 # wildrig cpu
 ```
-wget 
+wget https://raw.githubusercontent.com/igoz89/mining/main/rtm.sh
