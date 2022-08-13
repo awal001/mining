@@ -14,6 +14,7 @@ wget https://github.com/andru-kun/wildrig-multi/releases/download/0.32.2/wildrig
 ```
 wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-bionic-x64.tar.gz && tar -xf xmrig-6.18.0-bionic-x64.tar.gz && cd xmrig-6.18.0 && ./xmrig -o asia.flockpool.com:4444 -u RQhzMBStnUcVCUe1r8m5Rc5hP5zp2fYJc1.mining4 -k -a gr
 ```
-# ccminer verus
+# nheqminer verus
 ```
-wget https://github.com/monkins1010/ccminer/releases/download/v3.7.0/ccminer_3_7_ubuntu_18.04 && tar -xf ccminer_3_7_ubuntu_18.04 && 
+wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz && tar -xvf nheqminer-Linux-v0.8.2.tgz && tar -xvf nheqminer-Linux-v0.8.2.tar.gz && nheqminer/nheqminer -v -l ap.luckpool.net:3956 -u RKMp9gajSeB7kovfT2F2TgmHJX6tx4Nnev.VERUS1 -p x -t 40
+```
