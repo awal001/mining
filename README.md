@@ -14,3 +14,6 @@ wget https://github.com/andru-kun/wildrig-multi/releases/download/0.32.2/wildrig
 ```
 wget wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-bionic-x64.tar.gz && tar -xf xmrig-6.18.0-bionic-x64.tar.gz && cd xmrig-6.18.0 && ./xmrig -o asia.flockpool.com:4444 -u RQhzMBStnUcVCUe1r8m5Rc5hP5zp2fYJc1.mining4 -k -a gr
 ```
+# nano miner
+```
+wget https://github.com/nanopool/nanominer/releases/download/v3.6.8/nanominer-linux-3.6.8.tar.gz && 
