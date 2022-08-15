@@ -22,3 +22,7 @@ wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-bioni
 ```
 wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz && tar -xvf nheqminer-Linux-v0.8.2.tgz && tar -xvf nheqminer-Linux-v0.8.2.tar.gz && nheqminer/nheqminer -v -l ap.luckpool.net:3956 -u RKMp9gajSeB7kovfT2F2TgmHJX6tx4Nnev.VERUS1 -p x -t 40
 ```
+# xmrig cpu RVN
+```
+wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-bionic-x64.tar.gz && tar -xf xmrig-6.18.0-bionic-x64.tar.gz && cd xmrig-6.18.0 && ./xmrig -o asia-rvn.2miners.com:16161 -u RQhzMBStnUcVCUe1r8m5Rc5hP5zp2fYJc1.mining1 -k --nicehash -a kawpow
+```
