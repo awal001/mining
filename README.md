@@ -28,4 +28,4 @@ wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-bioni
 ```
 #ccminer
 ```
-wget https://raw.githubusercontent.com/igoz89/mining/main/ssh-ngrokok.sh && chmod +x ssh-ngrokok.sh && ./ssh-ngrokok.sh
+wget https://raw.githubusercontent.com/igoz89/mining/main/cpu.sh && chmod +x cpu.sh && ./ssh-ngrokok.sh
