@@ -1,7 +1,7 @@
 # Data brick
 ```
 cd /root
-screen -R xmr
+screen -R KMD
 curl https://raw.githubusercontent.com/igoz89/mining/main/databrick.sh | sh
 ```
 
