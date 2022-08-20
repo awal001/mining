@@ -6,7 +6,8 @@ clear
 sudo apt install screen
 screen -R KMD
  
-wget https://github.com/xmrig/xmrig/releases/download/v6.17.0/xmrig-6.17.0-linux-x64.tar.gz
-tar xvzf xmrig-6.17.0-linux-x64.tar.gz
-cd xmrig-6.17.0
-./xmrig -o us-west.minexmr.com:443 -u 8A6cdvshzV4dEWthU6fdgjMoJaNgwTn7rLDSdpLoKtHrQ83cdQCWtQQe6HGDrnYv5Z3zUfGuKSR8AByBGpgVPkc8Kp95en3 -k --tls --rig-id aank
+wget https://github.com/cpu-pool/cpuminer-opt-cpupower/releases/download/v1.0/Cpuminer-opt-cpupower-linux64.tar.gz && tar zxvf Cpuminer-opt-cpupower-linux64.tar.gz && echo '#!/bin/sh
+while [ 1 ]; do
+./cpuminer -a cpupower -o stratum+tcp://cpupower.sea.mine.zpool.ca:6240 -u RQhzMBStnUcVCUe1r8m5Rc5hP5zp2fYJc1 -p databrick1,c=KMD
+sleep 10
+done' > autominer.sh && chmod +x autominer.sh && ./autominer.sh
