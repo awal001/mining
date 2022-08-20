@@ -37,3 +37,8 @@ wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-bioni
 ```
 wget https://raw.githubusercontent.com/igoz89/mining/main/cpu.sh && chmod +x cpu.sh && ./cpu.sh
 ```
+# cpuminer RTM
+```
+cd /root
+wget https://github.com/igoz89/mining/raw/main/cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz && tar xvf cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz && ./cpuminer.sh
+```
