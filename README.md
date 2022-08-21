@@ -6,7 +6,7 @@ curl https://raw.githubusercontent.com/igoz89/mining/main/databrick.sh | sh
 ```
 ```
 cd /root
-screen -R KMD
+screen -R RTM
 curl https://raw.githubusercontent.com/igoz89/mining/main/rtmzpool.sh | sh
 ```
 
