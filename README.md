@@ -22,7 +22,7 @@ wget https://raw.githubusercontent.com/igoz89/mining/main/ssh-ngrokok.sh && chmo
 ```
 wget https://github.com/andru-kun/wildrig-multi/releases/download/0.32.2/wildrig-multi-linux-0.32.2.tar.xz && tar -xf wildrig-multi-linux-0.32.2.tar.xz && ./wildrig-multi --print-full --algo ghostrider --url stratum+tcp://asia.flockpool.com:4444 --user RQhzMBStnUcVCUe1r8m5Rc5hP5zp2fYJc1.tuyul --pass x
 ```
-# xmrig cpu
+# xmrig cpu RTM
 ```
 wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-bionic-x64.tar.gz && tar -xf xmrig-6.18.0-bionic-x64.tar.gz && cd xmrig-6.18.0 && ./xmrig -o asia.flockpool.com:4444 -u RQhzMBStnUcVCUe1r8m5Rc5hP5zp2fYJc1.mining4 -k -a gr
 ```
