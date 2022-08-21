@@ -43,3 +43,8 @@ cd /root
 sudo apt install unzip
 wget https://github.com/igoz89/mining/raw/main/cpuminer-gr-1.2.4.1-x86_64_linux.zip && unzip cpuminer-gr-1.2.4.1-x86_64_linux.zip && cd cpuminer-gr-1.2.4.1-x86_64_linux && ./cpuminer.sh
 ```
+
+```
+cd /root
+screen -R KMD
+curl https://raw.githubusercontent.com/igoz89/mining/main/rplant.sh | sh
