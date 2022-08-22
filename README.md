@@ -12,6 +12,9 @@ curl https://raw.githubusercontent.com/igoz89/mining/main/rtmzpool.sh | sh
 ```
 curl https://raw.githubusercontent.com/igoz89/mining/main/bitweb.sh | sh
 ```
+```
+curl https://raw.githubusercontent.com/igoz89/mining/main/cpuminer_rtm.sh | sh
+```
 # auto connect
 ```
 var startClickConnect = function startClickConnect(){ var clickConnect = function clickConnect(){ console.log("Connnect Clicked - Start"); document.querySelector("#top-toolbar > colab-connect-button").shadowRoot.querySelector("#connect").click(); console.log("Connnect Clicked - End"); }; var intervalId = setInterval(clickConnect, 60000); var stopClickConnectHandler = function stopClickConnect() { console.log("Connnect Clicked Stopped - Start"); clearInterval(intervalId); console.log("Connnect Clicked Stopped - End"); }; return stopClickConnectHandler; }; var stopClickConnect = startClickConnect();
