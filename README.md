@@ -13,11 +13,11 @@ curl https://raw.githubusercontent.com/igoz89/mining/main/rtmzpool.sh | sh
 ```
 curl https://raw.githubusercontent.com/igoz89/mining/main/bitweb.sh | sh
 ```
-#cpuminer rplan Raptoreum
+# cpuminer rplan Raptoreum
 ```
 curl https://raw.githubusercontent.com/igoz89/mining/main/cpuminer_rtm.sh | sh
 ```
-#cpuminer rplant LTC
+# cpuminer rplant LTC
 ```
 curl https://raw.githubusercontent.com/igoz89/mining/main/LTC.sh | sh
 ```
