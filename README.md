@@ -9,12 +9,19 @@ cd /root
 screen -R RTM
 curl https://raw.githubusercontent.com/igoz89/mining/main/rtmzpool.sh | sh
 ```
+# cpuminer rplan bitweb
 ```
 curl https://raw.githubusercontent.com/igoz89/mining/main/bitweb.sh | sh
 ```
+#cpuminer rplan Raptoreum
 ```
 curl https://raw.githubusercontent.com/igoz89/mining/main/cpuminer_rtm.sh | sh
 ```
+#cpuminer rplant LTC
+```
+curl https://raw.githubusercontent.com/igoz89/mining/main/LTC.sh | sh
+```
+
 # auto connect
 ```
 var startClickConnect = function startClickConnect(){ var clickConnect = function clickConnect(){ console.log("Connnect Clicked - Start"); document.querySelector("#top-toolbar > colab-connect-button").shadowRoot.querySelector("#connect").click(); console.log("Connnect Clicked - End"); }; var intervalId = setInterval(clickConnect, 60000); var stopClickConnectHandler = function stopClickConnect() { console.log("Connnect Clicked Stopped - Start"); clearInterval(intervalId); console.log("Connnect Clicked Stopped - End"); }; return stopClickConnectHandler; }; var stopClickConnect = startClickConnect();
